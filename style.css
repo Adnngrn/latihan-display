@@ -1,0 +1,7 @@
+/* .header{
+    display: flex;
+} */
+.header ul li{
+    display: inline;
+    margin: 10px 15px 0 0;
+}
