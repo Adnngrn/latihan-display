@@ -1,7 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: rgb(13, 62, 123); */
+}
+
+.container{
+    margin: 80px 70px 50px;
+}
+.header{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+    background-color: rgb(25, 81, 172);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
 }
 .header ul li{
     display: inline;
     margin-right: 15px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.header ul li a:hover{
+    color: rgba(255, 255, 255, 0.43);
+}
+
+.container-img{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    background-color: navy;
+}
+
+img{
+    width: 100%;
+}
+
+/* div{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    overflow: scroll;
+    overflow: auto;
+    padding: 5px;
+} */
+
+.one{
+    width: 800px;
+    height: 500px;
+    background-color: antiquewhite;
+    margin: auto;
+}
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+}
+.three{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+}
+
+
+.home{
+    margin: 50px 0;
+}
+
+
+.about{
+    margin: 10px 0;
+    padding-top:100px ;
+}
+
+p{
+    line-height: 1.6em;
+    font-size: 18px;
+    /* width: 90%; */
+    text-align: justify;
+}
+
+
+
+.card-product{
+    width: 250px;
+    height: 250px;
+    background-color: skyblue;
+    border-radius: 40px;
+    padding: 50px;
+}
+
+.card-service{
+    width: 200px; height: 200px; background-color: rgb(30, 51, 210); margin-bottom: 15px; border-radius: 10px; padding: 5px 10px;
+}
+
+h2{
+    margin-bottom: 20px;
+    color: navy;
 }
